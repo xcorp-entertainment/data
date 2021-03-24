@@ -1,11 +1,9 @@
 console.log('hello world!');
+let nv = document.getElementById('nav'),
+dd = document.getElementById('nav').children;
 
-let dd = document.getElementById('nav').children[8];
-console.log(dd)
-dd.lastChild.classList.add('pull-right');
+dd[8].lastChild.classList.add('pull-right');
 
 const utils = {
 
 }
-
-
