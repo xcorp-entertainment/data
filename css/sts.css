@@ -1,0 +1,142 @@
+div.header-top.collapse.navbar-collapse.navbar-cat-collapse {
+  background-color: #313131!important;
+  color: #FFFFFF!important;
+  box-shadow: 0 0 8px #313131!important;
+}
+
+nav.navbar {
+  background-color: #313131!important;
+  border-style: none!important;
+  box-shadow: 0 0 8px #313131!important;
+}
+
+div.copyright {
+  background-color: #313131!important;
+  box-shadow: 0 0 8px #313131!important;
+}
+
+div.col-xs-12.snotes-wrap {
+  background-color: #E63232!important;
+  border-style: none!important;
+}
+
+button.btn.btn-cart {
+  background-color: #E63232!important;
+}
+
+h2.product-head.block-title {
+  background-color: #000000!important;
+  box-shadow: 0 0 4px black!important;
+}
+
+div.product-col {
+  box-shadow: 0 0 6px black!important;
+  margin: 10px!important;
+  background-color: #000000!important;
+  border-style: none!important;
+}
+
+div.footer-links {
+  background-color: #0E0E0E!important;
+  border-style: none!important;
+  box-shadow: 0 0 8px rgb(54, 54, 54)!important;
+}
+
+h4 a span {
+  color: #D6D6D6!important;
+}
+
+span.price-new {
+  color: #634FFD!important;
+}
+
+span.price-old {
+  color: #E63232!important;
+}
+
+div.description {
+  color: #A2A2A2!important;
+}
+
+div.main-header {
+  box-shadow: 0 0 8px black!important;
+}
+
+div div h5 {
+  color: #D2D2D2!important;
+
+}
+
+div.col-md-6 {
+  background-color: #000000!important;
+}
+
+div.well.well-sm.nl-banner.custom-banner.cb2.hidden-xs {
+  border-style: none!important;
+}
+
+input.btn.btn-info {
+  background-color: #E63232!important;
+  border-color: #E63232!important;
+}
+
+
+#cart .dropdown-menu {
+    background: #313131!important;
+}
+
+#main-menu .dropdown-menu {
+    background: #313131!important;
+}
+
+#main-menu .dropdown-inner li a {
+    color: white!important;
+}
+
+#main-menu .dropdown-inner li a:hover {
+    color: #ccc!important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #a7a7a7;
+    border-radius: 0;
+    border: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 0;
+    border: 0;
+}
+
+#main-container {
+    padding: 20px!important;
+    box-shadow: 0 0 8px white!important;
+}
+
+.nav-underplayer {
+  background: #0E0E0E!important;
+  box-shadow: 0 0 8px #0e0e0e!important;
+}
+
+h3.side-heading.block-title {
+  box-shadow: 0 0 6px black!important;
+}
+
+.caption h4 a{
+  color: #ccc!important;
+}
+
+div.well {
+  background-color: #FDFDFD!important;
+}
+
+button.btn.btn-info {
+  background-color: #E63232!important;
+  border-color: #E63232!important;
+}
