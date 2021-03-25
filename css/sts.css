@@ -223,13 +223,6 @@ footer {
 
 
 @media (max-width: 767px){
-  #main-menu{
-    display: none!important
-  }
-
-  body{
-    padding-top: 0!important;
-  }
 
   .float-toggle {
       display: block;
