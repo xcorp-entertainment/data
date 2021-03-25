@@ -16,11 +16,16 @@ const utils = {
 
     try {
 
-      let nv = document.getElementById('nav'),
-      dd = nv.children[8];
+      let nv = document.getElementById('nav')
+      dest = document.getElementById('main-menu').firstChild,
+      dd = nv.children[8],
+      mob = x('span', {class: 'mob-title'}, 'SEXY TOY SHOP');
+      
       dd.classList.add('pull-right');
 
       utils.addCams(nv);
+
+      dest.append(mob);
 
     } catch (err) {
       console.error(err)

@@ -222,8 +222,18 @@ footer {
 }
 
 
-@media (max-width: 767px){
+.mob-title{
+  color: white;
+  display: none;
+  text-align: center;
+  font-size: 26px;
+  line-height: 1.5;
+}
 
+@media (max-width: 767px){
+  .mob-title{
+    display: block;
+  }
   .float-toggle {
       display: block;
   }
