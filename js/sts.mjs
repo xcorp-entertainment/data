@@ -113,6 +113,12 @@ const utils = {
       left: 0,
       behavior: 'smooth'
     });
+  },
+  analytics(){
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-1Y1DFE6V66');
   }
 }
 
@@ -120,4 +126,5 @@ const utils = {
 docReady(function() {
   utils.fixNav();
   utils.addMenuToggle();
+  utils.analytics();
 });
