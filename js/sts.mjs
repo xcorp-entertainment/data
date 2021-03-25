@@ -17,7 +17,7 @@ const utils = {
     try {
 
       let nv = document.getElementById('nav'),
-      dest = document.getElementById('main-menu').firstChild,
+      dest = document.getElementById('main-menu'),
       dd = nv.children[8],
       mob = x('span', {class: 'mob-title'}, 'SEXY TOY SHOP');
 
@@ -25,7 +25,7 @@ const utils = {
 
       utils.addCams(nv);
 
-      dest.append(mob);
+      dest.firstChild.append(mob);
 
     } catch (err) {
       console.error(err)
