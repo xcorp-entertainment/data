@@ -1,4 +1,6 @@
-console.log('app starting...');
+import { x } from './xscript.mjs';
+
+console.log(x);
 
 function docReady(fn) {
   if (document.readyState === "complete" || document.readyState === "interactive") {
@@ -45,6 +47,22 @@ const utils = {
     }
 
 
+  },
+  addMenu(){
+
+    let ele = document.createElement('button'),
+    anc = document.createElement('a');
+
+
+
+/*
+    <button id="cartsm" aria-controls="navbar" aria-expanded="false" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed header-toggle" type="button" style="
+    display: none;
+">
+<span class="sr-only">Toggle Navigation</span>
+<i class="fa fa-bars"></i>
+</button>
+*/
   }
 }
 
