@@ -63,6 +63,7 @@ const utils = {
     )
 
     document.body.append(ele);
+    document.getElementById('cartsm').remove()
     return;
 
   }
