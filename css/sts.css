@@ -177,6 +177,7 @@ footer {
   display: none;
   position: fixed;
   bottom: 30px;
+  border-radius: 50%;
   left: 30px;
   background: #E63232;
   color: white;
@@ -186,4 +187,10 @@ footer {
 
 .float-toggle:hover{
   box-shadow: 0 0 8px #E63232:
+}
+
+@media (max-width: 767px){
+  .float-toggle {
+      display: block;
+  }
 }

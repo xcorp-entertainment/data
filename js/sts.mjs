@@ -52,7 +52,7 @@ const utils = {
   addMenuToggle(){
 
     let ele = x('button', {
-        class: 'navbar-toggle collapsed float-toggle',
+        class: 'collapsed float-toggle',
         type: 'button',
         'aria-controls': 'navbar',
         'aria-expanded': 'false',
