@@ -217,10 +217,6 @@ footer {
   box-shadow: 0 0 8px #333:
 }
 
-#navbar{
-      background: #313131;
-}
-
 
 .mob-title{
   color: white;
@@ -240,5 +236,8 @@ footer {
   }
   .float-toggle {
       display: block;
+  }
+  #navbar{
+        background: #313131;
   }
 }
