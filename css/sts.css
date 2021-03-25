@@ -241,3 +241,7 @@ footer {
         background: #313131;
   }
 }
+
+.product-col.list .description {
+    display: contents;
+}
