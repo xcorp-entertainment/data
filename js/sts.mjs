@@ -63,7 +63,7 @@ const utils = {
       x('i', {class: 'fa fa-bars'})
     ),
     toTop = x('button', {
-        class: 'to-top hidden',
+        class: 'to-top',
         type: 'button',
         onclick(){
           utils.totop(0);
@@ -72,6 +72,7 @@ const utils = {
       x('i', {class: 'fa fa-chevron-up'})
     )
 
+    /*
     window.addEventListener('scroll', utils.debounce(function(evt){
       let top = window.pageYOffset || document.scrollTop;
 
@@ -83,6 +84,7 @@ const utils = {
       top = null;
       return;
     }, 250))
+    */
 
     document.body.append(ele,toTop);
     document.getElementById('cartsm').remove()
