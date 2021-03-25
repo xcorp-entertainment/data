@@ -156,6 +156,34 @@ footer {
     padding: 30px 0 0 0!important;
 }
 
+#search .input-group .form-control, #cart .btn, .search-dropdown {
+    background: rgb(49 49 49) !important;
+}
+
+#header{
+  background: black!important;
+}
 .image{
   margin: 10px!important;
+}
+
+.pagination > .active > span {
+    background: rgb(230 58 50);
+}
+
+.float-toggle{
+  width: 50px;
+  height: 50px;
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background: #E63232;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 6px #E63232:
+}
+
+.float-toggle:hover{
+  box-shadow: 0 0 8px #E63232:
 }

@@ -30,16 +30,17 @@ const utils = {
 
     try {
 
-      let ele = document.createElement('li'),
-      anc = document.createElement('a');
+      let ele = x('li', {
+          class: 'nav-item',
+          itemprop: 'url'
+        },
+        x('a', {
+          href: 'https://www.xxxcams.chat/',
+          target: '_blank',
+          itemprop: 'name'
+        }, 'CAMS')
+      )
 
-      ele.classList.add('nav-item');
-      ele.setAttribute('itemprop', 'url');
-      anc.href = 'https://www.xxxcams.chat/';
-      anc.target = '_blank';
-      anc.textContent = 'CAMS';
-      ele.setAttribute('itemprop', 'name');
-      ele.append(anc);
       nv.append(ele);
 
     } catch (err) {
@@ -48,25 +49,27 @@ const utils = {
 
 
   },
-  addMenu(){
+  addMenuToggle(){
 
-    let ele = document.createElement('button'),
-    anc = document.createElement('a');
+    let ele = x('button', {
+        class: 'navbar-toggle collapsed float-toggle',
+        type: 'button',
+        'aria-controls': 'navbar',
+        'aria-expanded': 'false',
+        'data-target': '.navbar-collapse',
+        'data-toggle': 'collapse'
+      },
+      x('i', {class: 'fa fa-bars'})
+    )
 
+    document.body.append(ele);
+    return;
 
-
-/*
-    <button id="cartsm" aria-controls="navbar" aria-expanded="false" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle collapsed header-toggle" type="button" style="
-    display: none;
-">
-<span class="sr-only">Toggle Navigation</span>
-<i class="fa fa-bars"></i>
-</button>
-*/
   }
 }
 
 
 docReady(function() {
-  utils.fixNav()
+  utils.fixNav();
+  utils.addMenuToggle();
 });
