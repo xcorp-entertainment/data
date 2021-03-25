@@ -224,10 +224,14 @@ footer {
 
 .mob-title{
   color: white;
+  background: #313131;
   display: none;
   text-align: center;
   font-size: 26px;
   line-height: 1.5;
+  position: fixed;
+  width: 100%;
+  left: 0;
 }
 
 @media (max-width: 767px){
