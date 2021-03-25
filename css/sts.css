@@ -190,7 +190,11 @@ footer {
   box-shadow: 0 0 8px #E63232:
 }
 
-.to-top{
+.tt.hidden:focus, .float-toggle:focus{
+  border: none!important;
+}
+
+.tt{
   width: 50px;
   height: 50px;
   display: block!important;
@@ -205,11 +209,11 @@ footer {
   box-shadow: 0 0 6px #333;
 }
 
-.to-top.hidden{
+.tt.hidden{
   display: none!important;
 }
 
-.to-top:hover{
+.tt:hover{
   box-shadow: 0 0 8px #333:
 }
 
