@@ -190,10 +190,27 @@ footer {
   box-shadow: 0 0 8px #E63232:
 }
 
-@media (max-width: 767px){
-  .float-toggle {
-      display: block;
-  }
+.to-top{
+  width: 50px;
+  height: 50px;
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  border-radius: 50%;
+  border: none;
+  right: 30px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 6px #333;
+}
+
+.to-top.hidden{
+  display: none!important;
+}
+
+.to-top:hover{
+  box-shadow: 0 0 8px #333:
 }
 
 #navbar{

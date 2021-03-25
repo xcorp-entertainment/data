@@ -11,6 +11,7 @@ function docReady(fn) {
 }
 
 const utils = {
+
   fixNav(){
 
     try {
@@ -60,12 +61,54 @@ const utils = {
         'data-toggle': 'collapse'
       },
       x('i', {class: 'fa fa-bars'})
+    ),
+    toTop = x('button', {
+        class: 'to-top hidden',
+        type: 'button',
+        onclick(){
+          utils.totop(0);
+        }
+      },
+      x('i', {class: 'fa fa-chevron-up'})
     )
 
-    document.body.append(ele);
+    window.addEventListener('scroll', utils.debounce(function(evt){
+      let top = window.pageYOffset || document.scrollTop;
+
+      if(top === NaN || !top){
+        toTop.classList.add('hidden')
+      } else if(toTop.classList.contains('hidden')){
+        toTop.classList.remove('hidden');
+      }
+      top = null;
+      return;
+    }, 250))
+
+    document.body.append(ele,toTop);
     document.getElementById('cartsm').remove()
     return;
 
+  },
+  debounce(func, wait, immediate) {
+  	var timeout;
+  	return function() {
+  		var context = this, args = arguments;
+  		var later = function() {
+  			timeout = null;
+  			if (!immediate) func.apply(context, args);
+  		};
+  		var callNow = immediate && !timeout;
+  		clearTimeout(timeout);
+  		timeout = setTimeout(later, wait);
+  		if (callNow) func.apply(context, args);
+  	};
+  },
+  totop(i){
+    window.scroll({
+      top: i,
+      left: 0,
+      behavior: 'smooth'
+    });
   }
 }
 
