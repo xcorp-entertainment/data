@@ -22,7 +22,7 @@ const utils = {
 
       utils.addCams(nv);
 
-      dest.firstChild.append(mob);
+      dest.querySelector('.container').append(mob);
 
     } catch (err) {
       console.error(err)
