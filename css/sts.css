@@ -181,7 +181,7 @@ footer {
   background: #E63232;
   color: white;
   cursor: pointer;
-  box-shadow: 0 0 6px #E63232:
+  box-shadow: 0 0 6px #E63232;
 }
 
 .float-toggle:hover{
