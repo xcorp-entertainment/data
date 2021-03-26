@@ -36,9 +36,8 @@ h2.product-head.block-title {
 }
 
 div.product-col {
-  box-shadow: 0 0 6px black!important;
+  box-shadow: 0 0 12px black!important;
   margin: 10px!important;
-  background-color: #000000!important;
   border-style: none!important;
 }
 
@@ -49,7 +48,7 @@ div.footer-links {
 }
 
 h4 a span {
-  color: #D6D6D6!important;
+  color: #6d6d6d!important;
 }
 
 span.price-new {
@@ -61,7 +60,7 @@ span.price-old {
 }
 
 div.description {
-  color: #A2A2A2!important;
+  color: #545454!important;
 }
 
 div.main-header {
