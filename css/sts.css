@@ -526,6 +526,10 @@ footer {
   max-width: none;
 }
 
+.collapse.in {
+    padding: 0;
+}
+
 #txtmsgcon{
   display: none!important;
 }
