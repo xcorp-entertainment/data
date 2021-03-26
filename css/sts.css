@@ -437,10 +437,6 @@ footer {
   margin: 10px!important;
 }
 
-.pagination > .active > span {
-    background: rgb(230 58 50);
-}
-
 .float-toggle{
   width: 50px;
   height: 50px;
@@ -528,6 +524,10 @@ footer {
 
 .collapse.in {
     padding: 0;
+}
+
+.pagination > .active > span {
+    background: rgb(51 112 233);
 }
 
 #txtmsgcon{
