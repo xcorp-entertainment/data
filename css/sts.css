@@ -102,6 +102,7 @@ input.btn.btn-info {
 
 #main-menu .dropdown-menu {
     background: #313131!important;
+    border-top: 5px solid rgb(51 112 233)!important;
 }
 
 #main-menu .dropdown-inner li a {
@@ -159,8 +160,12 @@ footer {
     background: rgb(49 49 49)!important;
 }
 
-#search .input-group .btn {
+#search .input-group .btn, option:hover {
     background: rgb(51 112 233)!important;
+}
+
+.view-more, .nav > li > a:hover, .nav > li > a:focus {
+  color: rgb(51 112 233)!important;
 }
 
 #header{
