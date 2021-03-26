@@ -350,6 +350,11 @@ input.btn.btn-info {
 
 #cart .dropdown-menu {
     background: #313131!important;
+    width: 100vw;
+}
+
+#cart {
+    margin-right: 15px;
 }
 
 #main-menu {
@@ -532,6 +537,18 @@ footer {
 
 #txtmsgcon{
   display: none!important;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #313131;
+}
+
+#cart .dropdown-menu table td a {
+    color: #3370e9;
+}
+
+#cart .btn .fa-shopping-cart, #cart .btn-block1 a:hover, #cart .btn-block1 a + a, .header-toggle, .product-col .btn-cart, .btn-filters, .product-info .product-details .btn-cart, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, #search .input-group .btn {
+    background: #3370e9;
 }
 
 h1, h2, h3, h4, .side-heading, .expand-tab, .product-filter .display a.active, .checkout-panel-title {
