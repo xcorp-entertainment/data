@@ -557,3 +557,6 @@ h1, h2, h3, h4, .side-heading, .expand-tab, .product-filter .display a.active, .
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
 }
+
+
+body{display: block!important}.loader-mask{position:fixed;width:100%;height:100%;top:0;left:0;z-index:999999;background:#000}.centered{width:400px;height:400px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#000;filter:blur(10px) contrast(20)}.blob-1,.blob-2{width:70px;height:70px;position:absolute;background:rgb(51 112 233)!important;border-radius:50%;top:50%;left:50%;transform:translate(-50%,-50%)}.blob-1{left:20%;animation:osc-l 2.5s ease infinite}.blob-2{left:80%;animation:osc-r 2.5s ease infinite;background:#0ff}@keyframes osc-l{0%{left:20%}50%{left:50%}100%{left:20%}}@keyframes osc-r{0%{left:80%}50%{left:50%}100%{left:80%}}
