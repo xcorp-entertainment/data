@@ -129,7 +129,7 @@ const utils = {
   utils.analytics();
 
   let eles = document.querySelectorAll('.product-col');
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 0; i < eles.length; i++) {
     eles[i].classList.add('wow');
   }
 //});
