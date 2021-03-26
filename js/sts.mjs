@@ -134,4 +134,7 @@ const utils = {
   for (let i = 0; i < eles.length; i++) {
     eles[i].classList.add('wow', 'fadeInUp');
   }
+
+  eles = document.getElementsByClassName('loader-mask');
+  eles[0].classList.add('fadeOut');
 //});

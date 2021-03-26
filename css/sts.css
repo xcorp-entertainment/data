@@ -533,3 +533,27 @@ footer {
 h1, h2, h3, h4, .side-heading, .expand-tab, .product-filter .display a.active, .checkout-panel-title {
     color: #3370e9!important;
 }
+
+
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
