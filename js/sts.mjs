@@ -22,7 +22,7 @@ const utils = {
 
       utils.addCams(nv);
 
-      dest.querySelector('#navbar').append(mob);
+      dest.append(mob);
 
     } catch (err) {
       console.error(err)

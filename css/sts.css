@@ -91,6 +91,7 @@ input.btn.btn-info {
 
 #main-menu {
   height: 41px!important;
+  text-align: center!important;
   background: #313131!important;
   position: fixed!important;
   top: 0!important;
