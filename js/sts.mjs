@@ -137,4 +137,7 @@ const utils = {
 
   eles = document.getElementsByClassName('loader-mask');
   eles[0].classList.add('fadeOut');
+  setTimeout(function(){
+    eles[0].remove()
+  },1000)
 //});
