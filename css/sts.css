@@ -143,7 +143,7 @@ h3.side-heading.block-title {
 }
 
 .caption h4 a{
-  color: #ccc!important;
+  color: #797979!important;
 }
 
 div.well {
@@ -198,6 +198,7 @@ footer {
 
 .tt.hidden:focus, .float-toggle:focus{
   border: none!important;
+  outline: none!important;
 }
 
 .tt{
@@ -255,4 +256,8 @@ footer {
 .timeTo div {
   background: white!important;
   border: 1px solid black!important;
+}
+
+.product-col .btn-wishlist {
+  max-width: none;
 }

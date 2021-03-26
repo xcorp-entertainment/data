@@ -123,8 +123,8 @@ const utils = {
 }
 
 
-docReady(function() {
+//docReady(function() {
   utils.fixNav();
   utils.addMenuToggle();
   utils.analytics();
-});
+//});
