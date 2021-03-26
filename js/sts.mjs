@@ -127,4 +127,9 @@ const utils = {
   utils.fixNav();
   utils.addMenuToggle();
   utils.analytics();
+
+  let eles = document.querySelectorAll('.product-col');
+  for (let i = 0; i < array.length; i++) {
+    eles[i].classList.add('wow');
+  }
 //});
