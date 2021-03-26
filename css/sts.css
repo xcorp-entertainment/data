@@ -20,14 +20,14 @@ div.copyright {
 }
 
 div.col-xs-12.snotes-wrap {
-  background-color: #E63232!important;
+  background-color: rgb(51 112 233)!important;
   border-style: none!important;
 }
 
 button.btn.btn-cart, button.btn.btn-info {
-  background-color: #E63232!important;
-  border-color: #E63232!important;
-  box-shadow: 0 0 6px #e63232 !important;
+  background-color: rgb(51 112 233)!important;
+  border-color: rgb(51 112 233)!important;
+  box-shadow: 0 0 6px rgb(51 112 233) !important;
 }
 
 h2.product-head.block-title {
@@ -56,7 +56,7 @@ span.price-new {
 }
 
 span.price-old {
-  color: #E63232!important;
+  color: rgb(51 112 233)!important;
 }
 
 div.description {
@@ -81,8 +81,8 @@ div.well.well-sm.nl-banner.custom-banner.cb2.hidden-xs {
 }
 
 input.btn.btn-info {
-  background-color: #E63232!important;
-  border-color: #E63232!important;
+  background-color: rgb(51 112 233)!important;
+  border-color: rgb(51 112 233)!important;
 }
 
 
@@ -179,14 +179,14 @@ footer {
   border-radius: 50%;
   border: none;
   left: 30px;
-  background: #E63232;
+  background: rgb(51 112 233);
   color: white;
   cursor: pointer;
-  box-shadow: 0 0 6px #E63232;
+  box-shadow: 0 0 6px rgb(51 112 233);
 }
 
 .float-toggle:hover{
-  box-shadow: 0 0 8px #E63232:
+  box-shadow: 0 0 8px rgb(51 112 233):
 }
 
 .tt.hidden:focus, .float-toggle:focus{
