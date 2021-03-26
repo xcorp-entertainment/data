@@ -136,8 +136,7 @@ input.btn.btn-info {
 }
 
 .nav-underplayer {
-  background: #0E0E0E!important;
-  box-shadow: 0 0 8px #0e0e0e!important;
+  display: none!important;
 }
 
 h3.side-heading.block-title {
@@ -156,7 +155,7 @@ footer {
     padding: 30px 0 0 0!important;
 }
 
-#search .input-group .form-control, #cart .btn, .search-dropdown {
+#search .input-group .form-control, #cart .btn, .search-dropdown, #cart .btn .fa-shopping-cart {
     background: rgb(49 49 49)!important;
 }
 
