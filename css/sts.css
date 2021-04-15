@@ -253,14 +253,6 @@
   animation-name: fadeInUp;
 }
 
-
-
-
-
-
-
-
-
 body{
   padding-top: 40px!important;
 }
@@ -455,6 +447,7 @@ footer {
   color: white;
   cursor: pointer;
   box-shadow: 0 0 6px rgb(51 112 233);
+  z-index: 999;
 }
 
 .float-toggle:hover{
@@ -479,6 +472,7 @@ footer {
   color: white;
   cursor: pointer;
   box-shadow: 0 0 6px #333;
+      z-index: 999;
 }
 
 .tt.hidden{
