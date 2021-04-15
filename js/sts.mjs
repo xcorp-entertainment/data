@@ -12,7 +12,9 @@ function docReady(fn) {
 
 const utils = {
   fixNav(){
-
+    if(location.pathname === '/login.php'){
+      return;
+    }
     try {
 
       let nv = document.getElementById('nav'),
