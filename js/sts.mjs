@@ -10,6 +10,7 @@ function docReady(fn) {
   }
 }
 
+
 const utils = {
   fixNav(){
     if(location.pathname === '/login.php'){
