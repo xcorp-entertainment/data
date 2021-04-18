@@ -2,6 +2,11 @@ import { x } from './xscript.mjs';
 
 new WOW().init();
 
+let cnf = {
+    cams: 'https://www.livecamsex.chat',
+    title: location.host.replace('-', ' ').replace('.', ' ')
+}
+
 function docReady(fn) {
   if (document.readyState === "complete" || document.readyState === "interactive") {
       setTimeout(fn, 1);
@@ -21,7 +26,7 @@ const utils = {
       let nv = document.getElementById('nav'),
       dest = document.getElementById('main-menu'),
       dd = nv.children[8],
-      mob = x('span', {class: 'mob-title'}, 'SEXY TOY SHOP');
+      mob = x('span', {class: 'mob-title'}, cnf.title);
 
       dd.classList.add('pull-right');
 
@@ -43,7 +48,7 @@ const utils = {
           itemprop: 'url'
         },
         x('a', {
-          href: 'https://www.xxxcams.chat/',
+          href: cnf.cams,
           target: '_blank',
           itemprop: 'name'
         }, 'CAMS')
